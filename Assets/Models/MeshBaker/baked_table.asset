@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d41887b1546f5c44ab54e7e65aad3bc, type: 3}
+  m_Name: baked_table
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 0
+  materialsAndUVRects:
+  - material: {fileID: 2100000, guid: 859edd4bc9b04bb489dcdaa4ab8d8e0e, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0625
+      y: 0.125
+      width: 0.125
+      height: 0.25
+    srcObjName: "\u30C6\u30FC\u30D6\u30EB_cable"
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.00009888625
+      y: 0.00009888625
+      width: 0.38475645
+      height: 0.9998023
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 859edd4bc9b04bb489dcdaa4ab8d8e0e, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0625
+      y: 0.625
+      width: 0.125
+      height: 0.25
+    srcObjName: "\u8DB3"
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.1250019
+      y: 0
+      width: 0.7499962
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 9f2c16228e241f940a6c7d6b68c5e940, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.3125
+      y: 0.125
+      width: 0.125
+      height: 0.25
+    srcObjName: "\u8DB3_black"
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.1254902
+      y: 0
+      width: 0.7490196
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 708851ff9e71a574593c77949db22ebe, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.3125
+      y: 0.125
+      width: 0.125
+      height: 0.25
+    srcObjName: "\u8DB3_black"
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.1254902
+      y: 0
+      width: 0.7490196
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 859edd4bc9b04bb489dcdaa4ab8d8e0e, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.3125
+      y: 0.625
+      width: 0.125
+      height: 0.25
+    srcObjName: "\u30C6\u30FC\u30D6\u30EB_\u5929\u677F"
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.00017863723
+      y: 0.00017863723
+      width: 0.9685254
+      height: 0.99964267
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 6922611aa5d4f3e4f8a325d03f595c76, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5625
+      y: 0.125
+      width: 0.125
+      height: 0.25
+    srcObjName: "\u30C6\u30FC\u30D6\u30EB_cablehole"
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.010009918
+      width: 1
+      height: 0.98999006
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  resultMaterials:
+  - combinedMaterial: {fileID: 2100000, guid: b79105b916b769e499817535ca799449, type: 2}
+    considerMeshUVs: 1
+    sourceMaterials:
+    - {fileID: 2100000, guid: 859edd4bc9b04bb489dcdaa4ab8d8e0e, type: 2}
+    - {fileID: 2100000, guid: 859edd4bc9b04bb489dcdaa4ab8d8e0e, type: 2}
+    - {fileID: 2100000, guid: 9f2c16228e241f940a6c7d6b68c5e940, type: 2}
+    - {fileID: 2100000, guid: 708851ff9e71a574593c77949db22ebe, type: 2}
+    - {fileID: 2100000, guid: 859edd4bc9b04bb489dcdaa4ab8d8e0e, type: 2}
+    - {fileID: 2100000, guid: 6922611aa5d4f3e4f8a325d03f595c76, type: 2}
+  resultMaterialsTexArray: []
+  doMultiMaterial: 0

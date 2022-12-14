@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d41887b1546f5c44ab54e7e65aad3bc, type: 3}
+  m_Name: baked_flower
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 0
+  materialsAndUVRects:
+  - material: {fileID: 2100000, guid: c30ab995af650f942820ae374de67528, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.0009765625
+      width: 0.6875
+      height: 0.65722656
+    srcObjName: Object034
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.32889083
+      y: 0.3327142
+      width: 0.34404334
+      height: 0.32887906
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: e1f7e8ec927810b4fb9d17d12eecb920, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6933594
+      y: 0.0009765625
+      width: 0.2265625
+      height: 0.33984375
+    srcObjName: Object035
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.26849774
+      y: 0.28409764
+      width: 0.45607266
+      height: 0.68128085
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: abe8b2f303c0159429be0c66d8823143, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.66015625
+      width: 0.3828125
+      height: 0.28222656
+    srcObjName: Sphere012
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.31034863
+      y: 0.34214476
+      width: 0.38305295
+      height: 0.5652848
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 763f1203377882a4fb2fbb262cb8697e, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6933594
+      y: 0.34277344
+      width: 0.15625
+      height: 0.20410156
+    srcObjName: stebel_012
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.34255683
+      y: 0.042885162
+      width: 0.3152954
+      height: 0.81873006
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  resultMaterials:
+  - combinedMaterial: {fileID: 2100000, guid: f26eb8db6fda11447bbe200e41951254, type: 2}
+    considerMeshUVs: 1
+    sourceMaterials:
+    - {fileID: 2100000, guid: c30ab995af650f942820ae374de67528, type: 2}
+    - {fileID: 2100000, guid: e1f7e8ec927810b4fb9d17d12eecb920, type: 2}
+    - {fileID: 2100000, guid: abe8b2f303c0159429be0c66d8823143, type: 2}
+    - {fileID: 2100000, guid: 763f1203377882a4fb2fbb262cb8697e, type: 2}
+  resultMaterialsTexArray: []
+  doMultiMaterial: 0

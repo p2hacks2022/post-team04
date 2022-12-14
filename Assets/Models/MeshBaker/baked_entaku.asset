@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d41887b1546f5c44ab54e7e65aad3bc, type: 3}
+  m_Name: baked_entaku
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 0
+  materialsAndUVRects:
+  - material: {fileID: 2100000, guid: 500fb6d32c3a3914bb396b657a3b5810, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.25
+      width: 0.25
+      height: 0.5
+    srcObjName: "\u5186\u5353_white"
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.015047423
+      y: 0.010001216
+      width: 0.96990514
+      height: 0.98999876
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 500fb6d32c3a3914bb396b657a3b5810, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.25
+      width: 0.25
+      height: 0.5
+    srcObjName: "\u5186\u5353_\u8DB3"
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.0045446255
+      y: 0.012326727
+      width: 0.9954554
+      height: 0.9876733
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  resultMaterials:
+  - combinedMaterial: {fileID: 2100000, guid: 78e3152a1060f334282a37167ecb627a, type: 2}
+    considerMeshUVs: 1
+    sourceMaterials:
+    - {fileID: 2100000, guid: 500fb6d32c3a3914bb396b657a3b5810, type: 2}
+    - {fileID: 2100000, guid: 500fb6d32c3a3914bb396b657a3b5810, type: 2}
+  resultMaterialsTexArray: []
+  doMultiMaterial: 0
