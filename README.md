@@ -4,7 +4,7 @@
 Open Space Open Mind Break Window
 
 コンセプト  
-...  
+ああああ
 
 対象ユーザ  
 ...  
