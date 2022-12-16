@@ -94,7 +94,8 @@ namespace GK {
 			}
 		}
 
-		void OnCollisionEnter(Collision coll) {
+        [System.Obsolete]
+        void OnCollisionEnter(Collision coll) {
 			if (age > 5 && coll.relativeVelocity.magnitude > MinImpactToBreak) {
 				var pnt = coll.contacts[0].point;
 				Break((Vector2)transform.InverseTransformPoint(pnt));
@@ -111,7 +112,8 @@ namespace GK {
 			return mean + stddev * randStdNormal;
 		}
 
-		public void Break(Vector2 position) {
+        [System.Obsolete]
+        public void Break(Vector2 position) {
 			var area = Area;
 			if (area > MinBreakArea) {
 				var calc = new VoronoiCalculator();
