@@ -271,15 +271,18 @@ public class Weapon : MonoBehaviour
 		{
 			GameObject g = GameObject.Find(defaultBulletHolePoolNames[i]);
 
-			if (g.GetComponent<BulletHolePool>() != null)
-				defaultBulletHoles[i] = g.GetComponent<BulletHolePool>();
-			else
+            if (g.GetComponent<BulletHolePool>() != null)
+            {
+                defaultBulletHoles[i] = g.GetComponent<BulletHolePool>();
+            }
+            else
 				Debug.LogWarning("Default Bullet Hole Pool does not have a BulletHolePool component.  Please assign GameObjects in the inspector that have the BulletHolePool component.");
 		}
 	}
-	
-	// Update is called once per frame
-	void Update()
+
+    // Update is called once per frame
+    [System.Obsolete]
+    void Update()
 	{
 		
 		// Calculate the current accuracy for this weapon
@@ -317,8 +320,9 @@ public class Weapon : MonoBehaviour
 		}
 	}
 
-	// Checks for user input to use the weapons - only if this weapon is player-controlled
-	void CheckForUserInput()
+    // Checks for user input to use the weapons - only if this weapon is player-controlled
+    [System.Obsolete]
+    void CheckForUserInput()
 	{
 
 		// Fire if this is a raycast type weapon and the user presses the fire button
@@ -875,9 +879,10 @@ public class Weapon : MonoBehaviour
 		// Play the gunshot sound
 		GetComponent<AudioSource>().PlayOneShot(fireSound);
 	}
-	
-	// Beam system
-	void Beam()
+
+    // Beam system
+    [System.Obsolete]
+    void Beam()
 	{
 		// Send a messsage so that users can do other actions whenever this happens
 		SendMessageUpwards("OnEasyWeaponsBeaming", SendMessageOptions.DontRequireReceiver);
