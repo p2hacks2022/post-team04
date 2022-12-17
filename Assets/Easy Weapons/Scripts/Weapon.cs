@@ -1058,7 +1058,7 @@ public class Weapon : MonoBehaviour
 	{
 		currentAmmo = ammoCapacity;
 		fireTimer = -reloadTime;
-		GetComponent<AudioSource>().PlayOneShot(reloadSound);
+		//GetComponent<AudioSource>().PlayOneShot(reloadSound);
 
 		// Send a messsage so that users can do other actions whenever this happens
 		SendMessageUpwards("OnEasyWeaponsReload", SendMessageOptions.DontRequireReceiver);
