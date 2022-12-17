@@ -51,6 +51,8 @@ public class WeaponSystem : MonoBehaviour
 			NextWeapon();
 		if (Input.GetAxis("Mouse ScrollWheel") < 0)
 			PreviousWeapon();
+		if (Input.GetKeyDown("a") || Input.GetKeyDown("d"))
+			PreviousWeapon();
 	}
 
 	void OnGUI()
@@ -61,6 +63,7 @@ public class WeaponSystem : MonoBehaviour
 
 	public void SetActiveWeapon(int index)
 	{
+		Debug.Log("The weapon is " + index);
 		// Make sure this weapon exists before trying to switch to it
 		if (index >= weapons.Length || index < 0)
 		{
@@ -90,8 +93,8 @@ public class WeaponSystem : MonoBehaviour
 	public void NextWeapon()
 	{
 		weaponIndex++;
-		if (weaponIndex > weapons.Length - 1)
-			weaponIndex = 0;
+		if (weaponIndex > 1)
+			weaponIndex = 1;
 		SetActiveWeapon(weaponIndex);
 	}
 
@@ -99,7 +102,7 @@ public class WeaponSystem : MonoBehaviour
 	{
 		weaponIndex--;
 		if (weaponIndex < 0)
-			weaponIndex = weapons.Length - 1;
+			weaponIndex = 0;
 		SetActiveWeapon(weaponIndex);
 	}
 }
