@@ -25,10 +25,6 @@ Open Space Open Mind Break Window
 ![image](https://user-images.githubusercontent.com/108859216/208279334-8646ec24-50d2-4080-8c21-6241f68a9798.png)
 
 
-デモ動画
-https://clipchamp.com/watch/nr4EaOxOsvi
-https://clipchamp.com/watch/ojaTjozKCSB
-
 
 ## 開発体制  
 
