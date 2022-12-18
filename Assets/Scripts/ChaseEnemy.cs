@@ -12,6 +12,7 @@ public class ChaseEnemy : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        target = GameObject.FindWithTag("Player");
     }
 
     void Update()

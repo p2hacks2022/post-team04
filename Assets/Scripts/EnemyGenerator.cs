@@ -30,7 +30,7 @@ public class EnemyGenerator : MonoBehaviour
             //enemyをインスタンス化する(生成する)
             GameObject enemy = Instantiate(enemyPrefab);
             //生成した敵の座標を決定する(現状X=0,Y=10,Z=20の位置に出力)
-            enemy.transform.position = new Vector3(61, 9, 59);
+            enemy.transform.position = new Vector3(61, 10, 59);
             //経過時間を初期化して再度時間計測を始める
             time = 0f;
         }
