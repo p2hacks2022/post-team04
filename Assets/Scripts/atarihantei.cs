@@ -20,11 +20,11 @@ public class atarihantei : MonoBehaviour
 
     void OnCollisionEnter(Collision c)
     {
-        //if (c.GameObject.FindWithTag("Enemy") == "Enemy")
-        //{
+        if (c.gameObject.tag == "Enemy")
+        {
             //何かと当たったら1回呼ばれる
             SceneManager.LoadScene("LoseScene", LoadSceneMode.Single);//シーン変更
-        //}
+        }
     }
 
 }
