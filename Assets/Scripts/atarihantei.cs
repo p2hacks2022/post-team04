@@ -20,7 +20,7 @@ public class atarihantei : MonoBehaviour
 
     void OnCollisionEnter(Collision c)
     { //何かと当たったら1回呼ばれる
-        SceneManager.LoadScene("LoseScene", LoadSceneMode.Single);//シーン変更
+        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);//シーン変更
     }
 
 }
